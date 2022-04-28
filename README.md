@@ -192,6 +192,183 @@ var cliente = [
 
 ## Distribuidora de cervejas artesanais
 
+### Descrição
+
+"Sou dona distribuidora de cervejas e kits cervejeiro   e preciso de um sistema de gerenciamento." -  Marcia 
+
+### Funcionalidades
+
+#### 1 - Cadastro de cervejas
+
+No array de `cervejas`, adicione um objeto no final desse array e liste as cervejas
+
+```js
+var cervejas = [
+  {
+    nome: "Cerveja Lemon Glow",
+    preco: 9.43,
+    categoria: "Fuit beer",
+    importada: false
+  },
+  {
+    nome: "Cerveja Gallows",
+    preco: 12.50,
+    categoria: "Imperial Ipa",
+    importada: true
+  },
+  {
+    nome: "Cerveja Chicago",
+    preco: 14.99,
+    categoria: "Sour Ale",
+    importada: false
+  },
+];
+```
+
+#### 2- Cadastro de kits
+
+No array de `kits`, adicione um objeto no final desse array e liste todos os kits
+
+```js
+var clubes = [
+  {
+    nome: "Kit Mestre",
+    tipo: 'Weiss',
+    preco: 750.0,
+    acompanhaCurso: true,
+    ehRefil: false
+  },
+  {
+    nome: "Kit de Insumos",
+    tipo: 'Pale Ale',
+    preco: 190.0,
+    acompanhaCurso: false,
+    ehRefil: true
+  },
+];
+```
+
+#### 3- Buscar por um cliente
+
+Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 4- Cadastro de cliente
+
+No array de cliente, adicione um objeto no final desse array e liste os clientes
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 5- Listar clientes entre duas idades
+
+Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 6- Listar clientes que começam com uma determinada letra
+
+Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+
 ## Livraria online
 
 ### Descrição
