@@ -196,7 +196,191 @@ var cliente = [
 
 ## Roupas e materiais Geek
 
-## Loja esportiva (Tenis, roupa, bolas...)
+## Loja esportiva (roupa, bolas...)
+
+### Descrição
+
+"Eu sou gerente de uma loja de artigos esportivos e vendo camisas e alugo outros tipos de produtos, preciso de sistema para gerenciar meu estoque" -  Júlia
+
+### Funcionalidades
+
+#### 1 - Cadastro de camisas
+
+No array de `camisas`, adicione um objeto no final desse array e liste os camisas
+
+```js
+var camisas = [
+  {
+    nome: "Fiorentina Retrô Batistuta",
+    preco: 200,
+    ano: "1998",
+    clube: "Fiorentina",
+    qtd: 40,
+  },
+  {
+    nome: "Lazio Retrô",
+    preco: 120.54,
+    ano: "1978",
+    clube: "Lazio",
+    qtd: 12,
+  },
+  {
+    nome: "Newll's Old Boys Retrô",
+    preco: 150,90,
+    ano: null,
+    clube: "Newll's Old Boys",
+    qtd: 54,
+  },
+];
+```
+
+#### 2- Cadastro de equipamentos
+
+No array de `equipamentos`, adicione um objeto no final desse array e liste todos os equipamentos
+
+```js
+var equipamentos = [
+  {
+    nome: 'Estreita Eletrônica',
+    tipo: 'estreita',
+    estaAlugado: true,
+    dataDeDevolucao: '01/06/2022'
+  },
+  {
+    nome: 'Conjunto de bolas de futebol',
+    tipo: 'artigos esportivos',
+    estaAlugado: false,
+    dataDeDevolucao: null
+  },
+  {
+    nome: 'Estacao de musculação',
+    tipo: 'academia',
+    estaAlugado: true,
+    dataDeDevolucao: '05/05/2022'
+  },
+];
+```
+
+#### 3- Buscar por um cliente
+
+Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 4- Cadastro de cliente
+
+No array de cliente, adicione um objeto no final desse array e liste os clientes
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 5- Listar clientes entre duas idades
+
+Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 6- Listar clientes que começam com uma determinada letra
+
+Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
 
 ## Viagem
 
