@@ -194,6 +194,184 @@ var cliente = [
 
 ## Livraria online
 
+### Descrição
+
+"Sou gerente de uma pequena livraria online e preciso gerencia os livros que temos e gerenciar nossos clubes do livro" -  Jefferson 
+
+### Funcionalidades
+
+#### 1 - Cadastro de livros
+
+No array de `livros`, adicione um objeto no final desse array e liste os livros
+
+```js
+var livros = [
+  {
+    titulo: "Tender Is the Flesh",
+    preco: 53.85,
+    autor: "Agustina Bazterrica",
+    editora: "Scribner",
+    ehTraducao: true
+  },
+  {
+    titulo: "A máquina do tempo",
+    preco: 13.54,
+    autor: "H. G. Wells",
+    editora: "L&PM Pocket",
+    ehTraducao: true
+  },
+  {
+    titulo: "salt. ",
+    preco: 118.54,
+    autor: "nayyirah waheed",
+    editora: null,
+    ehTraducao: false
+  },
+];
+```
+
+#### 2- Cadastro de clubes
+
+No array de `clubes`, adicione um objeto no final desse array e liste todos os clubes
+
+```js
+var clubes = [
+  {
+    nome: "Goodbye Sunrise",
+    gestor: 'R. Withfork',
+    qtdIntegrantes: 32,
+    leituraAtual: 'Northern Spy'
+  },
+  {
+    nome: "Action now",
+    gestor: 'Michael J.',
+    qtdIntegrantes: 30,
+    leituraAtual: 'To Build a Fire'
+  },
+];
+```
+
+#### 3- Buscar por um cliente
+
+Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 4- Cadastro de cliente
+
+No array de cliente, adicione um objeto no final desse array e liste os clientes
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 5- Listar clientes entre duas idades
+
+Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 6- Listar clientes que começam com uma determinada letra
+
+Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
+
+```js
+var cliente = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+
 ## Roupas e materiais Geek
 
 ### Descrição
