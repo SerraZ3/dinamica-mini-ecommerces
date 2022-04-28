@@ -10,10 +10,10 @@
 
 #### 1- Cadastro de ração
 
-No array de ração, adicione um objeto no final desse array e liste as rações
+No array de rações, adicione um objeto no final desse array e liste as rações
 
 ```js
-var racao = [
+var racoes = [
   {
     marca: "Biofresh",
     preco: 50.5,
@@ -37,10 +37,10 @@ var racao = [
 
 #### 2- Cadastro de pet
 
-No array de pet, adicione um objeto no final desse array e liste os pets
+No array de pets, adicione um objeto no final desse array e liste os pets
 
 ```js
-var pet = [
+var pets = [
   {
     raca: "Buldogue",
     especie: "cachorro",
@@ -67,7 +67,7 @@ var pet = [
 Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -94,10 +94,10 @@ var cliente = [
 
 #### 4- Cadastro de cliente
 
-No array de cliente, adicione um objeto no final desse array e liste os clientes
+No array de clientes, adicione um objeto no final desse array e liste os clientes
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -127,7 +127,7 @@ var cliente = [
 Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -157,7 +157,7 @@ var cliente = [
 Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -184,66 +184,57 @@ var cliente = [
 
 ## Restaurante vegano
 
-## Restaurante Japonês
-
-## Roupas de nenêm
-
-## Roupas de dogs
-
-## Distribuidora de cervejas artesanais
-
 ### Descrição
 
-"Sou dona distribuidora de cervejas e kits cervejeiro   e preciso de um sistema de gerenciamento." -  Marcia 
+"Possuo um restaurante onde realizo os melhores pratos veganos existentes. Preciso de um cardápio digital, gerenciamento de funcionários e de clientes!" - José
 
 ### Funcionalidades
 
-#### 1 - Cadastro de cervejas
+#### 1- Cadastro de prato
 
-No array de `cervejas`, adicione um objeto no final desse array e liste as cervejas
+No array de cardápio, adicione um objeto no final desse array e liste aos seus itens
 
 ```js
-var cervejas = [
+var cardapio = [
   {
-    nome: "Cerveja Lemon Glow",
-    preco: 9.43,
-    categoria: "Fuit beer",
-    importada: false
+    nome: "Churrasquinho vegano",
+    preco: 503.0,
+    descricao: "A melhor carne que não é carne da região!",
   },
   {
-    nome: "Cerveja Gallows",
-    preco: 12.50,
-    categoria: "Imperial Ipa",
-    importada: true
+    nome: "Frango a parmegiana vegano",
+    preco: 203.0,
+    descricao: "O melhor franguinho que você provará, mas sem o frango é claro",
   },
   {
-    nome: "Cerveja Chicago",
-    preco: 14.99,
-    categoria: "Sour Ale",
-    importada: false
+    nome: "Costela de cebola",
+    preco: 53.0,
+    descricao:
+      "Se você gosta de cebola suculenta esse é o melhor prato possível!",
   },
 ];
 ```
 
-#### 2- Cadastro de kits
+#### 2- Cadastro de funcionário
 
-No array de `kits`, adicione um objeto no final desse array e liste todos os kits
+No array de funcionário, adicione um objeto no final desse array e liste os funcionários
 
 ```js
-var clubes = [
+var funcionarios = [
   {
-    nome: "Kit Mestre",
-    tipo: 'Weiss',
-    preco: 750.0,
-    acompanhaCurso: true,
-    ehRefil: false
+    nome: "Linguini",
+    cargo: "Cozinheiro",
+    salario: 15000,
   },
   {
-    nome: "Kit de Insumos",
-    tipo: 'Pale Ale',
-    preco: 190.0,
-    acompanhaCurso: false,
-    ehRefil: true
+    nome: "Anton Ego",
+    cargo: "Degustado de prato",
+    salario: 10000,
+  },
+  {
+    nome: "Remy",
+    cargo: "Cozinheiro chefe",
+    salario: 80000,
   },
 ];
 ```
@@ -253,7 +244,7 @@ var clubes = [
 Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -280,10 +271,10 @@ var cliente = [
 
 #### 4- Cadastro de cliente
 
-No array de cliente, adicione um objeto no final desse array e liste os clientes
+No array de clientes, adicione um objeto no final desse array e liste os clientes
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -313,7 +304,7 @@ var cliente = [
 Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -343,7 +334,7 @@ var cliente = [
 Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -368,12 +359,195 @@ var cliente = [
 ];
 ```
 
+## Restaurante Japonês
+
+## Roupas de nenêm
+
+## Roupas de dogs
+
+## Distribuidora de cervejas artesanais
+
+### Descrição
+
+"Sou dona distribuidora de cervejas e kits cervejeiro e preciso de um sistema de gerenciamento." - Marcia
+
+### Funcionalidades
+
+#### 1 - Cadastro de cervejas
+
+No array de `cervejas`, adicione um objeto no final desse array e liste as cervejas
+
+```js
+var cervejas = [
+  {
+    nome: "Cerveja Lemon Glow",
+    preco: 9.43,
+    categoria: "Fuit beer",
+    importada: false,
+  },
+  {
+    nome: "Cerveja Gallows",
+    preco: 12.5,
+    categoria: "Imperial Ipa",
+    importada: true,
+  },
+  {
+    nome: "Cerveja Chicago",
+    preco: 14.99,
+    categoria: "Sour Ale",
+    importada: false,
+  },
+];
+```
+
+#### 2- Cadastro de kits
+
+No array de `kits`, adicione um objeto no final desse array e liste todos os kits
+
+```js
+var clubes = [
+  {
+    nome: "Kit Mestre",
+    tipo: "Weiss",
+    preco: 750.0,
+    acompanhaCurso: true,
+    ehRefil: false,
+  },
+  {
+    nome: "Kit de Insumos",
+    tipo: "Pale Ale",
+    preco: 190.0,
+    acompanhaCurso: false,
+    ehRefil: true,
+  },
+];
+```
+
+#### 3- Buscar por um cliente
+
+Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
+
+```js
+var clientes = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 4- Cadastro de cliente
+
+No array de clientes, adicione um objeto no final desse array e liste os clientes
+
+```js
+var clientes = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 5- Listar clientes entre duas idades
+
+Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
+
+```js
+var clientes = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
+
+#### 6- Listar clientes que começam com uma determinada letra
+
+Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
+
+```js
+var clientes = [
+  {
+    id: 1,
+    nome: "Rogério Lucas",
+    sobrenome: "Silva",
+    idade: 30,
+    contato: "4002-8922",
+  },
+  {
+    id: 2,
+    nome: "Roberto Carlos",
+    sobrenome: "Braga",
+    idade: 70,
+    contato: "(11) 9 1111-1111",
+  },
+  {
+    id: 3,
+    nome: "Sylvester",
+    sobrenome: "Stallone",
+    idade: 80,
+    contato: "(22) 9 2222-2222",
+  },
+];
+```
 
 ## Livraria online
 
 ### Descrição
 
-"Sou gerente de uma pequena livraria online e preciso gerencia os livros que temos e gerenciar nossos clubes do livro" -  Jefferson 
+"Sou gerente de uma pequena livraria online e preciso gerencia os livros que temos e gerenciar nossos clubes do livro" - Jefferson
 
 ### Funcionalidades
 
@@ -388,21 +562,21 @@ var livros = [
     preco: 53.85,
     autor: "Agustina Bazterrica",
     editora: "Scribner",
-    ehTraducao: true
+    ehTraducao: true,
   },
   {
     titulo: "A máquina do tempo",
     preco: 13.54,
     autor: "H. G. Wells",
     editora: "L&PM Pocket",
-    ehTraducao: true
+    ehTraducao: true,
   },
   {
     titulo: "salt. ",
     preco: 118.54,
     autor: "nayyirah waheed",
     editora: null,
-    ehTraducao: false
+    ehTraducao: false,
   },
 ];
 ```
@@ -415,15 +589,15 @@ No array de `clubes`, adicione um objeto no final desse array e liste todos os c
 var clubes = [
   {
     nome: "Goodbye Sunrise",
-    gestor: 'R. Withfork',
+    gestor: "R. Withfork",
     qtdIntegrantes: 32,
-    leituraAtual: 'Northern Spy'
+    leituraAtual: "Northern Spy",
   },
   {
     nome: "Action now",
-    gestor: 'Michael J.',
+    gestor: "Michael J.",
     qtdIntegrantes: 30,
-    leituraAtual: 'To Build a Fire'
+    leituraAtual: "To Build a Fire",
   },
 ];
 ```
@@ -433,7 +607,7 @@ var clubes = [
 Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -460,10 +634,10 @@ var cliente = [
 
 #### 4- Cadastro de cliente
 
-No array de cliente, adicione um objeto no final desse array e liste os clientes
+No array de clientes, adicione um objeto no final desse array e liste os clientes
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -493,7 +667,7 @@ var cliente = [
 Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -523,7 +697,7 @@ var cliente = [
 Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -548,12 +722,11 @@ var cliente = [
 ];
 ```
 
-
 ## Roupas e materiais Geek
 
 ### Descrição
 
-"Nós temos uma loja online de itens da cultura pop/geek e trabalhando vendo-os" -  Carlos e Daniel
+"Nós temos uma loja online de itens da cultura pop/geek e trabalhando vendo-os" - Carlos e Daniel
 
 ### Funcionalidades
 
@@ -611,7 +784,7 @@ var exclusivos = [
 Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -638,10 +811,10 @@ var cliente = [
 
 #### 4- Cadastro de cliente
 
-No array de cliente, adicione um objeto no final desse array e liste os clientes
+No array de clientes, adicione um objeto no final desse array e liste os clientes
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -671,7 +844,7 @@ var cliente = [
 Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -701,7 +874,7 @@ var cliente = [
 Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -726,12 +899,11 @@ var cliente = [
 ];
 ```
 
-
 ## Loja esportiva (roupa, bolas...)
 
 ### Descrição
 
-"Eu sou gerente de uma loja de artigos esportivos e vendo camisas e alugo outros tipos de produtos, preciso de sistema para gerenciar meu estoque" -  Júlia
+"Eu sou gerente de uma loja de artigos esportivos e vendo camisas e alugo outros tipos de produtos, preciso de sistema para gerenciar meu estoque" - Júlia
 
 ### Funcionalidades
 
@@ -772,22 +944,22 @@ No array de `equipamentos`, adicione um objeto no final desse array e liste todo
 ```js
 var equipamentos = [
   {
-    nome: 'Estreita Eletrônica',
-    tipo: 'estreita',
+    nome: "Estreita Eletrônica",
+    tipo: "estreita",
     estaAlugado: true,
-    dataDeDevolucao: '01/06/2022'
+    dataDeDevolucao: "01/06/2022",
   },
   {
-    nome: 'Conjunto de bolas de futebol',
-    tipo: 'artigos esportivos',
+    nome: "Conjunto de bolas de futebol",
+    tipo: "artigos esportivos",
     estaAlugado: false,
-    dataDeDevolucao: null
+    dataDeDevolucao: null,
   },
   {
-    nome: 'Estacao de musculação',
-    tipo: 'academia',
+    nome: "Estacao de musculação",
+    tipo: "academia",
     estaAlugado: true,
-    dataDeDevolucao: '05/05/2022'
+    dataDeDevolucao: "05/05/2022",
   },
 ];
 ```
@@ -797,7 +969,7 @@ var equipamentos = [
 Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -824,10 +996,10 @@ var cliente = [
 
 #### 4- Cadastro de cliente
 
-No array de cliente, adicione um objeto no final desse array e liste os clientes
+No array de clientes, adicione um objeto no final desse array e liste os clientes
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -857,7 +1029,7 @@ var cliente = [
 Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -887,7 +1059,7 @@ var cliente = [
 Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -912,12 +1084,11 @@ var cliente = [
 ];
 ```
 
-
 ## Viagem
 
 ### Descrição
 
-"Sou dono de uma agencia de viagens e preciso de um sistema onde possa cadastrar serviços como: passeios, pacotes e meus clientes" -  Marcelo
+"Sou dono de uma agencia de viagens e preciso de um sistema onde possa cadastrar serviços como: passeios, pacotes e meus clientes" - Marcelo
 
 ### Funcionalidades
 
@@ -959,24 +1130,24 @@ No array de passeios, adicione um objeto no final desse array e liste todos os p
 var passeios = [
   {
     nome: "Meet Rio",
-    precoPorAdulto: 369.00,
+    precoPorAdulto: 369.0,
     precoPorCrianca: 150,
     incluiRefeicao: true,
-    duracao: '8 horas'
+    duracao: "8 horas",
   },
   {
     nome: "Boat Tour Santos",
     precoPorAdulto: 180,
     precoPorCrianca: null,
     incluiRefeicao: true,
-    duracao: '3 horas'
+    duracao: "3 horas",
   },
   {
     nome: "Reveillon a Bordo",
     precoPorAdulto: 420,
     precoPorCrianca: 210,
     incluiRefeicao: true,
-    duracao: '7 hrs'
+    duracao: "7 hrs",
   },
 ];
 ```
@@ -986,7 +1157,7 @@ var passeios = [
 Pegar id do cliente e retorna o mesmo e caso não exista retorne a mensagem "Cliente não encontrado"
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -1013,10 +1184,10 @@ var cliente = [
 
 #### 4- Cadastro de cliente
 
-No array de cliente, adicione um objeto no final desse array e liste os clientes
+No array de clientes, adicione um objeto no final desse array e liste os clientes
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -1046,7 +1217,7 @@ var cliente = [
 Crie uma função que ao receber a idade inicial e final e em seguida retorne todos os clientes que estão nesse intervalo
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
@@ -1076,7 +1247,7 @@ var cliente = [
 Crie uma função que receba uma letra e retorne todos os clientes que começam com a mesma letra
 
 ```js
-var cliente = [
+var clientes = [
   {
     id: 1,
     nome: "Rogério Lucas",
